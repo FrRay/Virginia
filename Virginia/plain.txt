@@ -1,0 +1,265 @@
+Time 2025-04-12 21:48:03
+Hello World
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+Time 2025-04-12 21:48:03
+Hello World
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+Time 2025-04-12 21:48:03
+Hello World
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+Time 2025-04-12 21:48:03
+Hello World
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+Time 2025-04-12 21:48:03
+Hello World
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
+def crack(ciphertext_file, plaintext_file):
+    with open(ciphertext_file, 'r') as f:
+        ciphertext = f.read().upper()
+    
+    key_length = kasiski_test(ciphertext)
+    if not key_length:
+        key_length = 1  # Fallback if Kasiski fails
+    
+    groups = [''] * key_length
+    for i, char in enumerate(ciphertext):
+        if char.isalpha():
+            groups[i % key_length] += char
+    
+    key = ''.join([frequency_analysis(group) for group in groups])
+    
+    decrypt(ciphertext_file, plaintext_file, key)
+    return key
